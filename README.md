@@ -6,7 +6,8 @@ tips:
 
 2)Using this project requires a Xilinx FPGA development board, ov7725 camera and HDMI display.
 
-    In the system, the OV7725 camera is first used to extract real-time image input classifier for recognition. The input camera image is cut into an image size of 320*240, then converted into a grayscale, and finally scaled into a grayscale size of 28*28 (the specific method is to use 8*8 matrix to cut the image, Add the 64 pixels within each 8*8 matrix and assign them as new pixels) into the LeNet network. LeNet network parameters are stored in the database (RAM)....Specific reports will be updated when available....
+    In the system, the OV7725 camera is first used to extract real-time image input classifier for recognition. 
+    The input camera image is cut into an image size of 320*240, then converted into a grayscale, and finally scaled into a grayscale size of 28*28 (the specific method is to use 8*8 matrix to cut the image, Add the 64 pixels within each 8*8 matrix and assign them as new pixels) into the LeNet network. LeNet network parameters are stored in the database (RAM)....Specific reports will be updated when available....
 
 
 ![image](https://user-images.githubusercontent.com/103297071/229667419-b0abf60c-bf52-4a9b-b745-e3fdb0076378.png)
